@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".StartActivity">
+
+   <Button
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       android:id="@+id/add_new_words"
+       android:layout_centerInParent="true"
+       android:text="@string/add_new_word"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_new_words"
+        android:layout_centerHorizontal="true"
+        android:text="@string/learn_words"
+        android:id="@+id/exam_yourself"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exam_yourself"
+        android:layout_centerHorizontal="true"
+        android:text="@string/track_progress"
+        android:id="@+id/track_progress"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/track_progress"
+        android:text="@string/settings"
+        android:id="@+id/settings"/>
+</RelativeLayout>
